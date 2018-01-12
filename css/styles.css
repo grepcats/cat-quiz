@@ -1,0 +1,22 @@
+.result {
+  display:none;
+}
+
+h3 {
+  font-size: 1em;
+  color: #333;
+  font-weight: bold;
+}
+
+#small-circle {
+  border: 1px solid black;
+  border-radius:20px;
+}
+
+img {
+  width:50px;
+}
+
+.form-group {
+  width: 200px;
+}
