@@ -18,7 +18,7 @@
           <label for="name">What is your name?</label>
           <input id="name" type="text" class="form-control">
         </div>
-        <h3>How nice are you on a scale of 1-5, with 1 being the meanest and 5 being the nicest??</h3>
+  <!--      <h3>How nice are you on a scale of 1-5, with 1 being the meanest and 5 being the nicest??</h3>
         <div class="radio">
           <label>
             <input type="radio" name="nice" value="1">
@@ -48,7 +48,7 @@
             <input type="radio" name="nice" value="5">
               Five
           </label>
-        </div>
+        </div> -->
         <div class="form-group">
           <label for="snuggle">Do you love snuggles?</label>
             <select class="form-control" id="snuggle">
@@ -61,25 +61,25 @@
           <div class="radio">
             <label>
               <input type="radio" name="energy" value="sleep">
-                <img src="img/zzz.png" alt="tired face emoji"/>
+                <img src="img/zzz.png" alt="tired face emoji" class="face"/>
             </label>
           </div>
           <div class="radio">
             <label>
               <input type="radio" name="energy" value="ok">
-                <img src="img/line.png" alt="line face emoji"/>
+                <img src="img/line.png" alt="line face emoji" class="face"/>
             </label>
           </div>
           <div class="radio">
             <label>
               <input type="radio" name="energy" value="happy">
-                <img src="img/happy.png" alt="happy face emoji"/>
+                <img src="img/happy.png" alt="happy face emoji" class="face"/>
             </label>
           </div>
           <div class="radio">
             <label>
               <input type="radio" name="energy" value="stoked">
-                <img src="img/stoked.png" alt="grin face emoji"/>
+                <img src="img/stoked.png" alt="grin face emoji" class="face"/>
             </label>
           </div>
           <div class="form-group">
@@ -94,21 +94,32 @@
             <button type="submit" class="btn btn-primary">Be my friend</button>
           </form>
 
+      <div class="results">
       <div class="result" id="spaceship">
-        <h2>You got Spaceship</h2>
+        <h2>Spaceship</h2>
+        <img src="img/spaceship.jpg" class="result-img"/>
       </div>
 
       <div class="result" id="agamemnon">
-        <h2>You got Aggie</h2>
+        <h2>Aggie</h2>
+        <img src="img/aggie.jpg" class="result-img"/>
       </div>
 
       <div class="result" id="gwen">
-        <h2>You got Gwen</h2>
+        <h2>Gwen</h2>
+        <img src="img/gwen.jpg" class="result-img"/>
       </div>
 
       <div class="result" id="tom-petty">
-        <h2>You got Tom Petty</h2>
+        <h2>Tom Petty</h2>
+        <img src="img/tom.jpg" class="result-img"/>
       </div>
+
+      <div class="result" id="none">
+        <h2>None of the cats want to be your friend.</h2>
+        <img src="img/no.jpg"/>
+      </div>
+    </div>
     </div>
   </body>
 </html>

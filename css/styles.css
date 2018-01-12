@@ -8,15 +8,21 @@ h3 {
   font-weight: bold;
 }
 
-#small-circle {
-  border: 1px solid black;
-  border-radius:20px;
+.face {
+  width:50px;
 }
 
-img {
-  width:50px;
+.result-img {
+  width:300px;
+  border-radius: 20px;
 }
 
 .form-group {
   width: 200px;
+}
+
+.thanks {
+  margin-top: 20px;
+  font-size: 2em;
+  color: #333;
 }
